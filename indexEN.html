@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta charset="utf-8" />
+        <title>KnightSasha</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+        <!-- <meta name="color-scheme" content="light dark"> -->
+        <script  type="text/JavaScript"  src="script/jquery-1.7.1.min.js" ></script>
+        <style type="text/css">
+        .sgBody{
+            background-color: white;
+        }
+        /* .light.sgBody{
+          background-color:white;
+        }
+        .dark.sgBody{
+          background-color:black;
+        }
+        .dark.sgBody h1,h2,h3,p,li,a{
+          color:white;
+        } */
+        </style>
+        <script type="text/javascript">
+            $(function() {
+                $('#idBgImg').height(window.innerHeight-10);
+                
+                window.onresize = function () {
+                    $('#idBgImg').height(window.innerHeight-10);
+                };
+            });
+        </script>
+    </head>
+<body class="sgBody">
+    <div style="width:100%;height:100%;position:relative;">
+        <div style="width:100%;height:100%;position: absolute;z-index:20; left:1px;top:1px;">
+            
+<h1>莎莎骑士2D横版动作游戏(当前版本3.0)</h1>
+<p><a href="#contactAdmin"  style="color:red">欢迎老板购买此套代码做商用二次开发，代码质量优秀，容易封装且灵活可扩展</a></p>
+<h1>2024-03-01最后更新</h1>
+<h2>视频展示</h2>
+<ol>
+    <li><a href="http://mp3.sellgirl.com/index_sasha.html?idx=2">KnightSasha游戏视频</a></li>
+</ol>
+<h2>支持平台</h2>
+<ul><li>支持 电脑端 安卓手机 安卓电视, 所有平台完美支持各品牌的游戏手柄</li></ul>
+<h2>相关连接</h2>
+<ol>
+<li><a href="https://github.com/kahineasin/knightSashaRelease">github发布地址</a></li>
+<li><a href="https://github.com/kahineasin/knightSashaReleaseExe/blob/main/knightSasha_pc_exe.7z">PC端exe版本(133MB)(需要jar版本一起使用)</a></li>
+<li><a href="https://knightsasha.sellgirl.com/knightsashaPC/lib/knightsasha.jar">jar版本(53MB)</a></li>
+<li><a href="https://knightsasha.sellgirl.com/knightsashaAndroid/knightsasha_android15.apk">移动端apk(23MB) (支持安卓电视)</a></li>
+</ol>
+<h2>Game Introduction</h2>
+<ul><li>This game is about the battle between beautiful girls and monsters</li></ul>
+<h3>Game Features</h3>
+<ol>
+<li>Beautiful girl characters, multiple characters, and male characters as well</li>
+<li>Supports multiple gamepads such as Xbox, Switch, and PS5, with all button mappings unified and represented using PS5 button layouts. Keyboard operation is also supported</li>
+<li>KOF-style battles, multiplayer melee, the ability to add computer AI characters, and the inclusion of a "frame bar" similar to that in Street Fighter VI</li>
+<li>Increase character attributes infinitely</li>
+<li>Various timing pressure mechanisms can train your reaction. For example, in KOF mode, you can immediately defend when Sasha strikes. If you press L1 within 0.15 seconds, you can block it</li>
+<li>The catching skill, after being caught, you must input according to the instructions above the character's head to break free</li>
+<li>There are passionate plots</li>
+<li>It can flexibly set key mappings for gamepads, keyboards, and even mobile phones, and also supports multi-key combinations</li>
+<li>The mobile app also supports game controllers</li>
+<li>The developer promises permanent updates, including adding new characters, enhancing graphics and materials, improving game mechanics, and fixing any bugs that may arise</li>
+</ol>
+<h3>The operation method of the game</h3>
+<ol>
+<li>The character can defend, dodge, double jump, and run</li>
+<li>Skill combo commands, such as the finishing move which is ↓↘→↓↘→□, are intentionally strict by the developer. They may be harder to execute than in KOF, but they can better exercise your button precision</li>
+<li>The Sasha character can simplify their moves. For example, pressing the directional keys + △ will activate a skill, while pressing △ + ○ will activate a finishing move</li>
+<li>Sasha's normal attack consists of a multi-branch combo, such as pkpk, pkkp, kpk</li>
+</ol>
+<h2>游戏安装说明</h2>
+<ul>
+<li>pc端如果没有jdk环境:
+    <ol>
+        <li>下载 <a href="https://github.com/kahineasin/knightSashaReleaseExe/blob/main/knightSasha_pc_exe.7z">PC端exe版本</a>, 解压后作为游戏主目录. (以后版本更新时, 不需要这一步)</li>
+        <li>下载 <a href="https://knightsasha.sellgirl.com/knightsashaPC/lib/knightsasha.jar">jar</a>, 把jar移动到 knightSasha_pc_exe/lib/ 目录下.</li>
+        <li>运行 knightsasha.exe</li>
+    </ol>
+</li>
+<li>pc端已有jdk环境: 只需要下载 <a href="https://knightsasha.sellgirl.com/knightsashaPC/lib/knightsasha.jar">jar版本</a>, 
+    在相同目录下执行cmd指令: java -jar -"Dfile.encoding=UTF8" -"Dsun.jnu.encoding=UTF8" knightsasha.jar</li>
+    <li>手机端: 直接下载 <a href="https://knightsasha.sellgirl.com/knightsashaAndroid/knightsasha_android15.apk">apk</a> 安装即可</li>
+</ul>
+<h2>(附)各品牌的手柄匹配系统的方法:</h2>
+<ul>
+<li>PS5手柄
+    <ul>
+        <li>android手机: 按住手柄上的截图键和PS键, 直到灯闪(进入匹配蓝牙状态)</li>
+        <li>pc端: 方法同android端</li>
+    </ul>
+</li>
+<li>SWITCH PRO 手柄
+    <ul>
+        <li>android手机: 手柄需用数据线连接电源(或插电脑上), 按住手柄上的线插口旁边的小圆钮(不可松开), 灯闪匹配蓝牙</li>
+        <li>pc端: 方法同android端</li>
+    </ul>
+</li>
+</ul>
+<h2>最近版本更新</h2>
+<ol>
+    <li>增加怪物食人花  2023-11-03</li>
+    <li>增加怪物绿巨人, 捕捉技能, 超必杀技, 击飞效果(升龙类技能)  2023-12-11</li>
+    <li>增加3d模式, sasha可飞行, 同帧互击的处理, 增加sasha的打击音效, 气功特效, 3d的近特写镜头  2024-03-01</li>
+    <li>增加键位设置, combo连击显示, 手机端支持游戏手柄  2024-03-13</li>
+    <li>sasha的普通攻击改为多分支连续技  2024-06-07</li>
+    <li><a href="http://mp3.sellgirl.com/index_sasha.html?idx=5">加入了街霸6那样的"帧数条"</a>  2025-05-21</li>
+</ol>
+<h2 id="contactAdmin">联系开发者</h2>
+<ul>
+<li><a href="mailto:sasha@sellgirl.com">sasha@sellgirl.com</a></li>
+</ul>
+<h2>赞助开发者</h2>
+<ul><li><img  src="img/paycode.jpg" alt="paycode"></li></ul>
+        </div>
+        <img src="img/sashaKnight.png" alt="bg" style="position: absolute;z-index:10;right:1px;top:1px;height:1px;opacity :0.3;" id="idBgImg">
+    </div>
+</body>
+</html>
